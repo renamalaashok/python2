@@ -1,0 +1,66 @@
+python ides installation
+Windows:
+	python installation:
+		https://www.python.org/downloads/
+		download the file. double click it
+		with this file will get idle (gui version python editor)
+		to run python files from cmd for the firstime set a path
+		-> copy the python path
+		-> right click on mycomputer -> advanced settings -> Environment variables 
+		-> under system variables search for "path" variable. select it and edit the path 
+		and click on apply. 
+
+	Anaconda installation:
+		go here https://www.continuum.io/downloads and download the file. 
+		install it. With this installation ipython, ipython notebook will come.
+		goto cmd type : ipython or ipython notebook to step into ides
+
+	Module installation:
+		windows: Go to  pythonfolder/Scripts/  from the command prompt and type below commands.
+		pip install modulename
+		conda install modulename
+
+	Run a file:
+		open terminal and type
+		python pathofafile
+
+Linux:  
+	python installation 
+
+	No need to install python in linux environment. os itself come up 
+	with default version most of times its second version of python
+	If you want to install specific version of python and ides
+	ubuntu/
+		apt-get install python/python3 idle idle3 ipython ipython-notebook
+	cent/
+	yum install python/python3 idle idle3 ipython ipython-notebook
+
+	Run a file:
+		python "path of a file" without quotaions
+
+	Anaconda installtion
+		https://www.continuum.io/downloads
+		bash filename
+		With this installation ipython, ipython notebook will installs.
+		module installation
+
+install sublimetext3:
+	linux: ubuntu: Run the below commands
+		sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
+		sudo apt-get update; 
+		sudo apt-get install -y sublime-text-installer
+	Windows:
+		https://www.sublimetext.com/3
+		Goto above link and click on windows 64it or windows(depends on your os bit version)
+		This will downloads a .exe file. just doble click on this file to install it
+		
+Conda commands(common for any os):   
+	conda -V   (to know the anacoda version)
+	conda install modulename(to install a python module)
+    conda env list (to list out all the environments in the system)   
+    conda create --name python3 python=3 pandas(to create a new environment with the name python3, python version = 3. Tt is alos going to install pandas module in to that environment)   
+	to activate environament use:    source activate environment_name   
+	to deactivate:    source deactivate
+
+I will add good installation steps for mac. For the time being download anaconda from https://www.continuum.io/downloads. Click on osx tab. Download the file. Ater downloading the file run the below command
+bash "Anaconda file name".
