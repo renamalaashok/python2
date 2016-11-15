@@ -1,0 +1,26 @@
+2016-11-15 07:49:15,006<->WARNING<->b should be digit only
+2016-11-15 07:49:15,007<->ERROR<->invalid literal for int() with base 10: 'wer'
+Traceback (most recent call last):
+  File "log_prog1.py", line 23, in <module>
+    b=int(b)
+ValueError: invalid literal for int() with base 10: 'wer'
+2016-11-15 07:55:16,362<->INFO<->function started in log_module
+2016-11-15 07:55:16,375<->INFO<->Function ended in log_module
+2016-11-15 07:55:16,377<->INFO<->......................program started.........................
+2016-11-15 07:55:31,348<->WARNING<->b should be digit only
+2016-11-15 07:55:31,349<->ERROR<->invalid literal for int() with base 10: 'wer'
+Traceback (most recent call last):
+  File "log_prog1.py", line 26, in <module>
+    b=int(b)
+ValueError: invalid literal for int() with base 10: 'wer'
+2016-11-15 07:55:31,354<->INFO<->program ended
+2016-11-15 07:57:49,314<->INFO<->function started in log_modulelog_module
+2016-11-15 07:57:49,314<->INFO<->Function ended in log_module
+2016-11-15 07:57:49,315<->INFO<->......................program started.........................
+2016-11-15 07:57:51,574<->WARNING<->b should be digit only
+2016-11-15 07:57:51,575<->ERROR<->invalid literal for int() with base 10: 'wer'
+Traceback (most recent call last):
+  File "log_prog1.py", line 26, in <module>
+    b=int(b)
+ValueError: invalid literal for int() with base 10: 'wer'
+2016-11-15 07:57:51,576<->INFO<->program ended
